@@ -1,0 +1,169 @@
+
+header{
+  width: 100%;
+  height: 69px;
+  margin-top: 0;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  text-decoration: underline;
+  color: seashell;
+  background-color: black;
+  border-spacing: 0;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+header nav{
+
+}
+a{
+  color: white;
+}
+nav{
+  text-align: right;
+  flex-grow: 1;
+  display: block;
+  align-items: flex-end;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  justify-content: space-around;
+  color: seashell;
+}
+.logo{
+  display: flex;
+  align-items: center;
+
+}
+
+header img{
+  height: : 50px;
+  padding-left: 10px;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  background-color: black;
+  border: 1px hidden black;
+}
+#mission
+.content{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+.content div{
+  display: block;
+}
+#mission{
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  border: 1px hidden black;
+  align-items: center;
+  padding-top: 70px;
+  margin: auto;
+}
+.flex-container{
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+
+}
+
+.item div{
+  display: block;
+  flex-direction: row-reverse;
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+  border: 1px hidden black;
+
+}
+.item img{
+  height: 200px;
+  display: block;
+  margin: 10px;
+  padding-top: 60px;
+}
+.item span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#store{
+  height: auto;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+p{
+  padding-top: 10px;
+}
+#locations{
+  height: 500px;
+  padding-bottom: 15px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 90px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.column1{
+  margin-left: 70px;
+  width: 300px;
+  height: auto;
+  margin-right: 40px;
+  opacity: 1;
+  border: 1px solid black;
+  background-color: black;
+  padding-top: 15px;
+  display: block;
+}
+.column2{
+  width: 300px;
+  height: auto;
+  margin-right: 40px;
+  opacity: 1;
+  border: 1px solid black;
+  background-color: black;
+  padding-top: 15px;
+  display: block;
+}
+.column3{
+  width: 300px;
+  height: auto;
+  margin-right: 40px;
+  opacity: 1;
+  border: 1px solid black;
+  background-color: black;
+  padding-top: 15px;
+  display: block;
+}
+footer{
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+.contact{
+  height: 200px;
+
+}
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  width: auto;
+}
